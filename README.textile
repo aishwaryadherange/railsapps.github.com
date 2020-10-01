@@ -20,7 +20,7 @@ Here are the goals I had in mind when I set up the RailsApp site:
 
 * I like being able to edit the wiki pages locally using Textile markup and commit changes to the GitHub repository. I use the same text editor and workflow that I use for maintaining code.
 
-* On its own, the GitHub wiki does not provide everything needed for the project website. I wanted to improve the layout and design to make the site more attractive and useful. I wanted to add Javascript for the Disqus commenting system as well as a Google Analytics tracking script. I anticipated I would use a tool such as "Jekyll":https://github.com/mojombo/jekyll to combine the wiki files with a layout template and generate static web pages to upload to GitHub for site hosting.
+* On its own, the GitHub wiki does not provide everything needed for the project website. I wanted to improve the layout and design to make the site more attractive and useful. I wanted to add Javascript for the Disqus commenting system as well as a Google Analytics tracking script. I would use a tool such as "Jekyll":https://github.com/mojombo/jekyll to combine the wiki files with a layout template and generate static web pages to upload to GitHub for site hosting.
 
 * As the maintainer of the site, I anticipate generating static web pages from the wiki files periodically (or when I notice changes to the wiki pages or am alerted with a "GitHub issue":http://github.com/railsapps/railsapps.github.com/issues). I don't need to have the site updated dynamically.
 
@@ -78,7 +78,7 @@ $ git commit -am "update layout"
 
 h4. Generate Static Web Pages
 
-When you are ready to generate the static pages, use the gollum-site gem to generate the static web pages in the wiki repo. Gollum-site has a built-in web server if you want to view the site locally before committing and publishing to GitHub.
+When you are ready to generate the static pages, use the gollum-site gem to generate the static web pages in the wiki repository. Gollum-site has a built-in web server if you want to view the site locally before committing and publishing to GitHub.
 
 <pre>
 $ gollum-site generate ## to generate static webpages in "./_site" folder
